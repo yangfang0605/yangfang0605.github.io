@@ -88,7 +88,7 @@
       <span class="logo">
         <i class="icon-next-logo"></i>
       </span>
-      <span class="site-title">Yang Fang</span>
+      <span class="site-title">一如既往，万事胜意</span>
   </a>
   <span class="logo-line-after"><i></i></span>
 </h1>
@@ -328,13 +328,6 @@
 
         
           
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2019/11/26/my-first-blog/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/11/26/my-first-blog/" itemprop="commentsCount"></span>
-            </a>
-          </span>
-          
         
       </div>
     </header>
@@ -400,11 +393,6 @@
 
         
           <div class="comments" id="comments">
-            
-              <div id="disqus_thread">
-                <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-              </div>
-            <!--
             
             -->
         
@@ -492,19 +480,13 @@
             <p class="site-author-name">Links</p>
             
               <span class="links-of-author-item">
-              <a href="https://yiming1012.github.io" target="_blank">About</a>
+              <a href="" target="_blank">About</a>
               </span>
             
           
         </div>
 
         
-        
-          <div class="cc-license motion-element" itemprop="license">
-            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0" class="cc-opacity" target="_blank">
-              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
-            </a>
-          </div>
         
 
       </section>
@@ -551,9 +533,30 @@
 
 <!-- busuanzi -->
 
+  <div class="busuanzi-info">
+    <div class="theme-info">
+    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+    </script>
+    <span id="busuanzi_container_site_pv">
+        本站总访问量<a class="theme-link"><span id="busuanzi_value_site_pv"></span></a>次
+    </span>
+</div>
+  </div>
 
 
- </div>
+
+
+<% if (theme.busuanzi && theme.busuanzi.enable){ %>
+        <!-- 不蒜子统计 -->
+        <span id="busuanzi_container_site_pv">
+                本站总访问量<span id="busuanzi_value_site_pv"></span>次
+        </span>
+        <span class="post-meta-divider">|</span>
+        <span id="busuanzi_container_site_uv" style='display:none'>
+                本站访客数<span id="busuanzi_value_site_uv"></span>人
+        </span>
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <% } %> </div>
     </footer>
 
     <div class="back-to-top"></div>
@@ -565,27 +568,6 @@
   
   
     
-
-  <script type="text/javascript">
-    var disqus_shortname = 'xxx';
-    var disqus_identifier = '2019/11/26/my-first-blog/';
-    var disqus_title = 'my first blog';
-    var disqus_url = 'http://yoursite.com/2019/11/26/my-first-blog/';
-
-    function run_disqus_script(disqus_script){
-      var dsq = document.createElement('script');
-      dsq.type = 'text/javascript';
-      dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }
-
-    run_disqus_script('count.js');
-    
-      run_disqus_script('embed.js');
-    
-  </script>
-
   
   
   <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
