@@ -4,28 +4,35 @@
   <url>
     <loc>http://yoursite.com/about/index.html</loc>
     
-    <lastmod>2019-11-28T10:25:45.087Z</lastmod>
+    <lastmod>2019-11-30T10:56:00.913Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
+    <loc>http://yoursite.com/2019/08/13/Win10+Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E8%A7%A3/</loc>
     
-    <lastmod>2019-11-28T10:24:47.687Z</lastmod>
+    <lastmod>2019-11-30T10:48:34.601Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/categories/index.html</loc>
     
-    <lastmod>2019-11-28T10:19:33.902Z</lastmod>
+    <lastmod>2019-11-30T10:22:09.850Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2019-11-30T10:16:53.820Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/2019/11/22/firstblog/</loc>
     
-    <lastmod>2019-11-26T12:43:41.708Z</lastmod>
+    <lastmod>2019-11-28T12:49:38.016Z</lastmod>
     
   </url>
   
@@ -33,13 +40,6 @@
     <loc>http://yoursite.com/2019/11/26/my-first-blog/</loc>
     
     <lastmod>2019-11-26T12:18:10.134Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/08/13/Win10+Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E8%A7%A3/</loc>
-    
-    <lastmod>2019-11-26T12:07:17.472Z</lastmod>
     
   </url>
   
