@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://yoursite.com/2019/08/13/Win10+Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E8%A7%A3/</loc>
-    <lastmod>2019-11-30</lastmod>
+    <loc>http://yoursite.com/2019/11/26/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
+    <lastmod>2019-12-12</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/22/firstblog/</loc>
-    <lastmod>2019-11-28</lastmod>
+    <lastmod>2019-11-30</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2019/11/26/my-first-blog/</loc>
-    <lastmod>2019-11-26</lastmod>
+    <loc>http://yoursite.com/2019/11/30/yfpicture/</loc>
+    <lastmod>2019-11-30</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/2019/08/13/Win10+Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E8%A7%A3/</loc>
+    <lastmod>2019-11-30</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/2019/11/12/hello-world/</loc>
     <lastmod>2019-11-12</lastmod>
