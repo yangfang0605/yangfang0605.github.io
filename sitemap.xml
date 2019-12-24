@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/12/24/gitlab%E4%BB%93%E5%BA%93%E7%9A%84%E5%85%8B%E9%9A%86%E5%92%8C%E6%8F%90%E4%BA%A4/</loc>
+    
+    <lastmod>2019-12-24T11:38:29.775Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2019-12-12T04:02:53.108Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/11/26/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E7%90%86%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
     
     <lastmod>2019-12-12T03:38:43.276Z</lastmod>
@@ -16,9 +30,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>http://yoursite.com/categories/index.html</loc>
     
-    <lastmod>2019-12-02T09:07:37.844Z</lastmod>
+    <lastmod>2019-12-02T09:07:53.087Z</lastmod>
     
   </url>
   
@@ -40,20 +54,6 @@
     <loc>http://yoursite.com/2019/08/13/Win10+Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E8%A7%A3/</loc>
     
     <lastmod>2019-11-30T10:48:34.601Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
-    
-    <lastmod>2019-11-30T10:22:09.850Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/11/12/hello-world/</loc>
-    
-    <lastmod>2019-11-12T13:31:58.529Z</lastmod>
     
   </url>
   
