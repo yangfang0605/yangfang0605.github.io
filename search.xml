@@ -9,7 +9,6 @@
     <title>gitlab仓库的克隆和提交</title>
     <url>/2019/12/24/gitlab%E4%BB%93%E5%BA%93%E7%9A%84%E5%85%8B%E9%9A%86%E5%92%8C%E6%8F%90%E4%BA%A4/</url>
     <content><![CDATA[<blockquote>
-<p>文章作者：杨芳</p>
 <p>简书主页：<a href="https://www.jianshu.com/u/ea9b4c96b097" target="_blank" rel="noopener">https://www.jianshu.com/u/ea9b4c96b097</a></p>
 </blockquote>
 <p>最近开始学习java，学习的过程中总结了从gitlab克隆代码到本地及修改代码后推送到个人库，在由个人库请求合并到主库的整个流程，再此仅是个人笔记。</p>
