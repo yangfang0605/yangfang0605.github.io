@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/08/12/firstblog/</loc>
+    
+    <lastmod>2020-01-16T07:26:16.710Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/12/24/gitlab%E4%BB%93%E5%BA%93%E7%9A%84%E5%85%8B%E9%9A%86%E5%92%8C%E6%8F%90%E4%BA%A4/</loc>
     
-    <lastmod>2020-01-16T03:45:18.495Z</lastmod>
+    <lastmod>2020-01-16T06:49:12.358Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2020-01-16T04:09:14.726Z</lastmod>
     
   </url>
   
@@ -12,13 +26,6 @@
     <loc>http://yoursite.com/2020list/index.html</loc>
     
     <lastmod>2020-01-15T07:55:26.384Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2019-12-28T11:24:18.993Z</lastmod>
     
   </url>
   
@@ -54,13 +61,6 @@
     <loc>http://yoursite.com/2019/08/13/Win10+Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E8%A7%A3/</loc>
     
     <lastmod>2019-12-28T07:14:29.023Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2019/08/12/firstblog/</loc>
-    
-    <lastmod>2019-12-28T07:14:29.019Z</lastmod>
     
   </url>
   
