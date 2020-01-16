@@ -12,8 +12,15 @@
 <p>文章作者：杨芳</p>
 <p>简书主页：<a href="https://www.jianshu.com/u/ea9b4c96b097" target="_blank" rel="noopener">https://www.jianshu.com/u/ea9b4c96b097</a></p>
 </blockquote>
-<p>最近开始学习java，学习的过程中总结了从gitlab克隆代码到本地及修改代码够推送到个人库，在由个人库请求合并到主库的整个流程，再此仅是个人笔记。打开自己想要克隆代码的工作文件夹，右键git bash here。</p>
-<h2 id="gitlab克隆代码到本地"><a href="#gitlab克隆代码到本地" class="headerlink" title="gitlab克隆代码到本地"></a>gitlab克隆代码到本地</h2><h3 id="1、克隆个人库代码到本地（此处为HTTP克隆）"><a href="#1、克隆个人库代码到本地（此处为HTTP克隆）" class="headerlink" title="1、克隆个人库代码到本地（此处为HTTP克隆）"></a>1、克隆个人库代码到本地（此处为HTTP克隆）</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#克隆代码到本地</span></span><br><span class="line">$ git <span class="built_in">clone</span> http://XXX个人库XXX.git</span><br></pre></td></tr></table></figure>
+<p>最近开始学习java，学习的过程中总结了从gitlab克隆代码到本地及修改代码后推送到个人库，在由个人库请求合并到主库的整个流程，再此仅是个人笔记。</p>
+<h2 id="一、准备工作"><a href="#一、准备工作" class="headerlink" title="一、准备工作"></a>一、准备工作</h2><p>1、先登录gitlab，左上角查看“项目-您的项目”。</p>
+<p><img src="https://github.com/yangfang0605/YfBlogPicture/blob/master/GitlabLogin.png?raw=true" alt="gitlab登录界面"></p>
+<p>2、项目后面为“开发人员”代表主库，“主程序员”代表个人库；点击“派生”可fork这个项目（主库），成功以后会在你的项目中出现你自己的项目（个人库），一般命名为：用户名/项目名。</p>
+<p><img src="https://github.com/yangfang0605/YfBlogPicture/blob/master/MainPersonalfork.png?raw=true" alt="主库与个人库"></p>
+<p>3、进入主库后，右上角“克隆”点开就可以看到使用HTTP克隆，个人库同理，也就是我们接下来要用到的HTTP克隆地址。</p>
+<p><img src="https://github.com/yangfang0605/YfBlogPicture/blob/master/HttpFork.png?raw=true" alt="HTTP克隆"></p>
+<h2 id="二、gitlab克隆代码到本地"><a href="#二、gitlab克隆代码到本地" class="headerlink" title="二、gitlab克隆代码到本地"></a>二、gitlab克隆代码到本地</h2><p>打开自己想要克隆代码的工作文件夹，右键git bash here。</p>
+<h3 id="1、克隆个人库代码到本地（此处为HTTP克隆）"><a href="#1、克隆个人库代码到本地（此处为HTTP克隆）" class="headerlink" title="1、克隆个人库代码到本地（此处为HTTP克隆）"></a>1、克隆个人库代码到本地（此处为HTTP克隆）</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#克隆代码到本地</span></span><br><span class="line">$ git <span class="built_in">clone</span> http://XXX个人库XXX.git</span><br></pre></td></tr></table></figure>
 
 <h3 id="2、cd进入项目文件夹"><a href="#2、cd进入项目文件夹" class="headerlink" title="2、cd进入项目文件夹"></a>2、cd进入项目文件夹</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> XXXXXX</span><br></pre></td></tr></table></figure>
 
@@ -27,7 +34,7 @@
 
 
 
-<h2 id="本地提交修改代码到个人库"><a href="#本地提交修改代码到个人库" class="headerlink" title="本地提交修改代码到个人库"></a>本地提交修改代码到个人库</h2><h3 id="1、右键git-bash-here，cd到或者打开XXXX盘目录，右键git-bash-here"><a href="#1、右键git-bash-here，cd到或者打开XXXX盘目录，右键git-bash-here" class="headerlink" title="1、右键git bash here，cd到或者打开XXXX盘目录，右键git bash here"></a>1、右键git bash here，cd到或者打开XXXX盘目录，右键git bash here</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> XXXXXX</span><br></pre></td></tr></table></figure>
+<h2 id="三、本地提交修改代码到个人库"><a href="#三、本地提交修改代码到个人库" class="headerlink" title="三、本地提交修改代码到个人库"></a>三、本地提交修改代码到个人库</h2><h3 id="1、右键git-bash-here，cd到或者打开XXXX盘目录，右键git-bash-here"><a href="#1、右键git-bash-here，cd到或者打开XXXX盘目录，右键git-bash-here" class="headerlink" title="1、右键git bash here，cd到或者打开XXXX盘目录，右键git bash here"></a>1、右键git bash here，cd到或者打开XXXX盘目录，右键git bash here</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> XXXXXX</span><br></pre></td></tr></table></figure>
 
 <h3 id="2、用于显示工作目录和暂存区的状态，红色部分为自己本地修改的代码文件路径"><a href="#2、用于显示工作目录和暂存区的状态，红色部分为自己本地修改的代码文件路径" class="headerlink" title="2、用于显示工作目录和暂存区的状态，红色部分为自己本地修改的代码文件路径"></a>2、用于显示工作目录和暂存区的状态，红色部分为自己本地修改的代码文件路径</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git status</span><br></pre></td></tr></table></figure>
 
